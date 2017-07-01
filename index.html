@@ -21,66 +21,66 @@
 </head>
 <body >
 	
-		<div class="container">
+	<div class="container">
+		<div id ="content">
 			<div id = "code">
-			<div class="row">
-				<div class="col-xs-5 col-md-5">
-					<a href="https://rebeater2.github.io" class="thumbnail">
+				<div class="row">
+					<div class="col-xs-4 col-md-4">
+						<a href="https://rebeater2.github.io" class="thumbnail">
 						<img src="img/1.jpg" alt="...">
-					</a>
-				</div>
-					<div class="col-xs-5 col-md-5">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-4">
 					<a href="https://rebeater2.github.io" class="thumbnail">
 						<img src="img/2.jpg" alt="...">
 					</a>
-				</div>
-				<div class="col-xs-5 col-md-5">
-					<a href="https://rebeater2.github.io" class="thumbnail">
+					</div>
+					<div class="col-xs-4 col-md-4">
+						<a href="https://rebeater2.github.io" class="thumbnail">
 						<img src="img/3.jpg" alt="...">
-					</a>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4 col-md-4">
+						<a href="https://rebeater2.github.io" class="thumbnail">
+						<img src="img/4.jpg" alt="...">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-4">
+						<a href="https://rebeater2.github.io" class="thumbnail">
+						<img src="img/5.jpg" alt="...">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-4">
+						<a href="https://rebeater2.github.io" class="thumbnail">
+						<img src="img/6.jpg" alt="...">
+						</a>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-xs-4 col-md-4">
+						<a href="https://rebeater2.github.io" class="thumbnail">
+						<img src="img/7.jpg" alt="...">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-4">
+						<a href="https://rebeater2.github.io" class="thumbnail">
+						<img src="img/8.jpg" alt="...">
+						</a>
+					</div>
+					<div class="col-xs-4 col-md-4">
+						<a href="https://rebeater2.github.io" class="thumbnail">
+						<img src="img/9.jpg" alt="...">
+						</a>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-5 col-md-5">
-					<a href="https://rebeater2.github.io" class="thumbnail">
-					<img src="img/4.jpg" alt="...">
-					</a>
-				</div>
-			<div class="col-xs-5 col-md-5">
-				<a href="https://rebeater2.github.io" class="thumbnail">
-					<img src="img/5.jpg" alt="...">
-				</a>
-			</div>
-			<div class="col-xs-5 col-md-5">
-				<a href="https://rebeater2.github.io" class="thumbnail">
-					<img src="img/6.jpg" alt="...">
-				</a>
-			</div>
-		</div>
-			
-		<div class="row">
-			<div class="col-xs-5 col-md-5">
-				<a href="https://rebeater2.github.io" class="thumbnail">
-					<img src="img/7.jpg" alt="...">
-				</a>
-			</div>
-			<div class="col-xs-5 col-md-5">
-				<a href="https://rebeater2.github.io" class="thumbnail">
-					<img src="img/8.jpg" alt="...">
-				</a>
-			</div>
-			<div class="col-xs-5 col-md-5">
-				<a href="https://rebeater2.github.io" class="thumbnail">
-					<img src="img/9.jpg" alt="...">
-				</a>
-			</div>
-		</div>
-		</div>
 		<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						During the days we are in WHU, I have been in love with you for
+						During the days we are in WHU, we've been in love with you for
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
@@ -92,10 +92,9 @@
 		</div>
 		<div id="copyright">
 			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
-			Copyright © 2011 <a href='#'>Baolinfeng</a> 2009-2011
-			</div>
-	
-
+			Copyright © 2017 <a href='#'>Baolinfeng</a> 2007-2018
+		</div>
+	</div>
 
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
@@ -114,7 +113,7 @@
 			document.body.appendChild(msg);
 			$("#code").css("display", "none")
 			$("#copyright").css("position", "absolute");
-			$("#copyright").css("bottom", "10px");
+			$("#copyright").css("row", "10px");
 		    document.execCommand("stop");
 		} else {
 			setTimeout(function () {
@@ -124,16 +123,12 @@
 			timeElapse(together);
 			setInterval(function () {
 				timeElapse(together);
-			}, 500);
+			}, 300);
 
 			adjustCodePosition();
 			$("#code");
 		}
 	</script>
-<p>
-    <br/>
-</p>
-
 </body>
 
 
