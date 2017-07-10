@@ -88,11 +88,11 @@
 					</div>
 				</div>
 			</div>
-			<div id="words">
+			<div id="word">
 				<span class="comments">我不知道你会在什么时候再打开这个网站，甚至可能在这个网站过期之后你都不会看到它，但是我还是想写在这里。
 				</span><br />
 				<span class="comments">
-				有时候我自己也在想，就这么在一起是不是太唐突了
+					有时候我自己也在想，就这么在一起是不是太唐突了
 				</span><br />
 				<span>
 					要不是你闺蜜趁你睡着偷看你的手机，也许我会怂到毕业
@@ -100,7 +100,63 @@
 				<span>
 					所以我承认我喜欢你的时候
 				</span><br />
-				
+				<span>
+					我当时真的没有准备好做一个男朋友
+				</span><br/>
+				<span>
+					但是
+				</span><br/>
+				<span>
+					难道你没有发现，我老早就把你当女朋友吗
+				</span><br/>
+				<span>
+					（也可能就只是是我自己这么认为）
+				</span><br/>
+				<span>
+					我也知道，你忍受和理解了我很多
+				</span><br/>
+				<span>
+					虽然还是违背不了自己的心
+				</span><br/>
+				<span>
+					有那么一段时间我一直觉得是我太自私
+				</span><br/>
+				<span>
+					毕竟大一下那个命题
+				</span><br/>
+				<span>
+					我毫不犹豫的选择了 the one i love
+				</span><br/>
+				<span>
+					......
+				</span><br/>
+				<span>
+					诺不轻许，我不随便承诺你任何事
+				</span><br/>
+				<span>
+					一旦承诺我就全力以赴
+				</span><br/>
+				<span>
+					包括，背新概念
+				</span><br/>
+				<span>
+					包括，吃饭不要发出声音
+				</span><br/>
+				<span>
+					包括，注重一下外表
+				</span><br/>
+				<span>
+					包括，想办法变得强势和外向
+				</span><br/>
+				<span>
+					直到现在我还是想说
+				</span><br/>
+				<span>
+					i can but i can not without you
+				</span><br/>
+				<span>
+					2017/7/9 23:27
+				</span><br/>	
 			</div>
 		<div id="copyright">
 			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
@@ -124,7 +180,7 @@
 			msg.id = "errorMsg";
 			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
 			document.body.appendChild(msg);
-			$("#code").css("display", "none")
+			$("#word").css("display", "none")
 			$("#copyright").css("position", "absolute");
 			$("#copyright").css("row", "10px");
 		    document.execCommand("stop");
@@ -136,10 +192,10 @@
 			timeElapse(together);
 			setInterval(function () {
 				timeElapse(together);
-			}, 300);
+			}, 500)
 
 			adjustCodePosition();
-			$("#wprds");
+			$("#word").typewriter();
 		}
 	</script>
 </body>
